@@ -4,7 +4,7 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setup(
-    name='specimenid',
+    name='vision_model',
     version='0.0.0',
     author='Yiqiao Yin',
     author_email='eagle0504@gmail.com',
@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/yiqiao-yin/WYN-VisionModel.git',
-    packages=['src/vision_models'],
+    packages=['src/vision_model'],
     install_requires=[
         'numpy',
         'pandas',
